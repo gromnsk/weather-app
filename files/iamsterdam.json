@@ -1,0 +1,2064 @@
+{
+    "predictions": [
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200224",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 26
+                },
+                {
+                    "time": "01:00",
+                    "value": 28
+                },
+                {
+                    "time": "02:00",
+                    "value": 25
+                },
+                {
+                    "time": "03:00",
+                    "value": 26
+                },
+                {
+                    "time": "04:00",
+                    "value": 24
+                },
+                {
+                    "time": "05:00",
+                    "value": 16
+                },
+                {
+                    "time": "06:00",
+                    "value": 15
+                },
+                {
+                    "time": "07:00",
+                    "value": 28
+                },
+                {
+                    "time": "08:00",
+                    "value": 21
+                },
+                {
+                    "time": "09:00",
+                    "value": 16
+                },
+                {
+                    "time": "10:00",
+                    "value": 23
+                },
+                {
+                    "time": "11:00",
+                    "value": 19
+                },
+                {
+                    "time": "12:00",
+                    "value": 26
+                },
+                {
+                    "time": "13:00",
+                    "value": 26
+                },
+                {
+                    "time": "14:00",
+                    "value": 21
+                },
+                {
+                    "time": "15:00",
+                    "value": 19
+                },
+                {
+                    "time": "16:00",
+                    "value": 28
+                },
+                {
+                    "time": "17:00",
+                    "value": 15
+                },
+                {
+                    "time": "18:00",
+                    "value": 30
+                },
+                {
+                    "time": "19:00",
+                    "value": 23
+                },
+                {
+                    "time": "20:00",
+                    "value": 15
+                },
+                {
+                    "time": "21:00",
+                    "value": 19
+                },
+                {
+                    "time": "22:00",
+                    "value": 17
+                },
+                {
+                    "time": "23:00",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200225",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 16
+                },
+                {
+                    "time": "01:00",
+                    "value": 24
+                },
+                {
+                    "time": "02:00",
+                    "value": 16
+                },
+                {
+                    "time": "03:00",
+                    "value": 18
+                },
+                {
+                    "time": "04:00",
+                    "value": 18
+                },
+                {
+                    "time": "05:00",
+                    "value": 28
+                },
+                {
+                    "time": "06:00",
+                    "value": 24
+                },
+                {
+                    "time": "07:00",
+                    "value": 25
+                },
+                {
+                    "time": "08:00",
+                    "value": 25
+                },
+                {
+                    "time": "09:00",
+                    "value": 24
+                },
+                {
+                    "time": "10:00",
+                    "value": 18
+                },
+                {
+                    "time": "11:00",
+                    "value": 17
+                },
+                {
+                    "time": "12:00",
+                    "value": 19
+                },
+                {
+                    "time": "13:00",
+                    "value": 16
+                },
+                {
+                    "time": "14:00",
+                    "value": 25
+                },
+                {
+                    "time": "15:00",
+                    "value": 24
+                },
+                {
+                    "time": "16:00",
+                    "value": 27
+                },
+                {
+                    "time": "17:00",
+                    "value": 30
+                },
+                {
+                    "time": "18:00",
+                    "value": 17
+                },
+                {
+                    "time": "19:00",
+                    "value": 24
+                },
+                {
+                    "time": "20:00",
+                    "value": 21
+                },
+                {
+                    "time": "21:00",
+                    "value": 15
+                },
+                {
+                    "time": "22:00",
+                    "value": 15
+                },
+                {
+                    "time": "23:00",
+                    "value": 16
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200226",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 23
+                },
+                {
+                    "time": "01:00",
+                    "value": 19
+                },
+                {
+                    "time": "02:00",
+                    "value": 18
+                },
+                {
+                    "time": "03:00",
+                    "value": 16
+                },
+                {
+                    "time": "04:00",
+                    "value": 28
+                },
+                {
+                    "time": "05:00",
+                    "value": 22
+                },
+                {
+                    "time": "06:00",
+                    "value": 30
+                },
+                {
+                    "time": "07:00",
+                    "value": 30
+                },
+                {
+                    "time": "08:00",
+                    "value": 30
+                },
+                {
+                    "time": "09:00",
+                    "value": 22
+                },
+                {
+                    "time": "10:00",
+                    "value": 29
+                },
+                {
+                    "time": "11:00",
+                    "value": 27
+                },
+                {
+                    "time": "12:00",
+                    "value": 15
+                },
+                {
+                    "time": "13:00",
+                    "value": 19
+                },
+                {
+                    "time": "14:00",
+                    "value": 18
+                },
+                {
+                    "time": "15:00",
+                    "value": 20
+                },
+                {
+                    "time": "16:00",
+                    "value": 29
+                },
+                {
+                    "time": "17:00",
+                    "value": 15
+                },
+                {
+                    "time": "18:00",
+                    "value": 28
+                },
+                {
+                    "time": "19:00",
+                    "value": 18
+                },
+                {
+                    "time": "20:00",
+                    "value": 15
+                },
+                {
+                    "time": "21:00",
+                    "value": 25
+                },
+                {
+                    "time": "22:00",
+                    "value": 25
+                },
+                {
+                    "time": "23:00",
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200227",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 30
+                },
+                {
+                    "time": "01:00",
+                    "value": 22
+                },
+                {
+                    "time": "02:00",
+                    "value": 17
+                },
+                {
+                    "time": "03:00",
+                    "value": 29
+                },
+                {
+                    "time": "04:00",
+                    "value": 29
+                },
+                {
+                    "time": "05:00",
+                    "value": 21
+                },
+                {
+                    "time": "06:00",
+                    "value": 28
+                },
+                {
+                    "time": "07:00",
+                    "value": 28
+                },
+                {
+                    "time": "08:00",
+                    "value": 21
+                },
+                {
+                    "time": "09:00",
+                    "value": 21
+                },
+                {
+                    "time": "10:00",
+                    "value": 25
+                },
+                {
+                    "time": "11:00",
+                    "value": 28
+                },
+                {
+                    "time": "12:00",
+                    "value": 19
+                },
+                {
+                    "time": "13:00",
+                    "value": 28
+                },
+                {
+                    "time": "14:00",
+                    "value": 24
+                },
+                {
+                    "time": "15:00",
+                    "value": 26
+                },
+                {
+                    "time": "16:00",
+                    "value": 25
+                },
+                {
+                    "time": "17:00",
+                    "value": 29
+                },
+                {
+                    "time": "18:00",
+                    "value": 16
+                },
+                {
+                    "time": "19:00",
+                    "value": 25
+                },
+                {
+                    "time": "20:00",
+                    "value": 21
+                },
+                {
+                    "time": "21:00",
+                    "value": 20
+                },
+                {
+                    "time": "22:00",
+                    "value": 17
+                },
+                {
+                    "time": "23:00",
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200228",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 29
+                },
+                {
+                    "time": "01:00",
+                    "value": 16
+                },
+                {
+                    "time": "02:00",
+                    "value": 23
+                },
+                {
+                    "time": "03:00",
+                    "value": 21
+                },
+                {
+                    "time": "04:00",
+                    "value": 15
+                },
+                {
+                    "time": "05:00",
+                    "value": 24
+                },
+                {
+                    "time": "06:00",
+                    "value": 24
+                },
+                {
+                    "time": "07:00",
+                    "value": 22
+                },
+                {
+                    "time": "08:00",
+                    "value": 27
+                },
+                {
+                    "time": "09:00",
+                    "value": 30
+                },
+                {
+                    "time": "10:00",
+                    "value": 22
+                },
+                {
+                    "time": "11:00",
+                    "value": 21
+                },
+                {
+                    "time": "12:00",
+                    "value": 18
+                },
+                {
+                    "time": "13:00",
+                    "value": 25
+                },
+                {
+                    "time": "14:00",
+                    "value": 24
+                },
+                {
+                    "time": "15:00",
+                    "value": 19
+                },
+                {
+                    "time": "16:00",
+                    "value": 30
+                },
+                {
+                    "time": "17:00",
+                    "value": 20
+                },
+                {
+                    "time": "18:00",
+                    "value": 16
+                },
+                {
+                    "time": "19:00",
+                    "value": 28
+                },
+                {
+                    "time": "20:00",
+                    "value": 25
+                },
+                {
+                    "time": "21:00",
+                    "value": 18
+                },
+                {
+                    "time": "22:00",
+                    "value": 22
+                },
+                {
+                    "time": "23:00",
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200229",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 24
+                },
+                {
+                    "time": "01:00",
+                    "value": 20
+                },
+                {
+                    "time": "02:00",
+                    "value": 20
+                },
+                {
+                    "time": "03:00",
+                    "value": 15
+                },
+                {
+                    "time": "04:00",
+                    "value": 16
+                },
+                {
+                    "time": "05:00",
+                    "value": 18
+                },
+                {
+                    "time": "06:00",
+                    "value": 18
+                },
+                {
+                    "time": "07:00",
+                    "value": 19
+                },
+                {
+                    "time": "08:00",
+                    "value": 26
+                },
+                {
+                    "time": "09:00",
+                    "value": 27
+                },
+                {
+                    "time": "10:00",
+                    "value": 23
+                },
+                {
+                    "time": "11:00",
+                    "value": 22
+                },
+                {
+                    "time": "12:00",
+                    "value": 29
+                },
+                {
+                    "time": "13:00",
+                    "value": 26
+                },
+                {
+                    "time": "14:00",
+                    "value": 29
+                },
+                {
+                    "time": "15:00",
+                    "value": 25
+                },
+                {
+                    "time": "16:00",
+                    "value": 29
+                },
+                {
+                    "time": "17:00",
+                    "value": 18
+                },
+                {
+                    "time": "18:00",
+                    "value": 30
+                },
+                {
+                    "time": "19:00",
+                    "value": 23
+                },
+                {
+                    "time": "20:00",
+                    "value": 19
+                },
+                {
+                    "time": "21:00",
+                    "value": 30
+                },
+                {
+                    "time": "22:00",
+                    "value": 27
+                },
+                {
+                    "time": "23:00",
+                    "value": 29
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200301",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 28
+                },
+                {
+                    "time": "01:00",
+                    "value": 25
+                },
+                {
+                    "time": "02:00",
+                    "value": 21
+                },
+                {
+                    "time": "03:00",
+                    "value": 15
+                },
+                {
+                    "time": "04:00",
+                    "value": 26
+                },
+                {
+                    "time": "05:00",
+                    "value": 29
+                },
+                {
+                    "time": "06:00",
+                    "value": 16
+                },
+                {
+                    "time": "07:00",
+                    "value": 16
+                },
+                {
+                    "time": "08:00",
+                    "value": 21
+                },
+                {
+                    "time": "09:00",
+                    "value": 22
+                },
+                {
+                    "time": "10:00",
+                    "value": 30
+                },
+                {
+                    "time": "11:00",
+                    "value": 28
+                },
+                {
+                    "time": "12:00",
+                    "value": 29
+                },
+                {
+                    "time": "13:00",
+                    "value": 15
+                },
+                {
+                    "time": "14:00",
+                    "value": 24
+                },
+                {
+                    "time": "15:00",
+                    "value": 22
+                },
+                {
+                    "time": "16:00",
+                    "value": 21
+                },
+                {
+                    "time": "17:00",
+                    "value": 16
+                },
+                {
+                    "time": "18:00",
+                    "value": 23
+                },
+                {
+                    "time": "19:00",
+                    "value": 26
+                },
+                {
+                    "time": "20:00",
+                    "value": 24
+                },
+                {
+                    "time": "21:00",
+                    "value": 28
+                },
+                {
+                    "time": "22:00",
+                    "value": 21
+                },
+                {
+                    "time": "23:00",
+                    "value": 21
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200302",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 25
+                },
+                {
+                    "time": "01:00",
+                    "value": 22
+                },
+                {
+                    "time": "02:00",
+                    "value": 19
+                },
+                {
+                    "time": "03:00",
+                    "value": 16
+                },
+                {
+                    "time": "04:00",
+                    "value": 15
+                },
+                {
+                    "time": "05:00",
+                    "value": 29
+                },
+                {
+                    "time": "06:00",
+                    "value": 28
+                },
+                {
+                    "time": "07:00",
+                    "value": 15
+                },
+                {
+                    "time": "08:00",
+                    "value": 21
+                },
+                {
+                    "time": "09:00",
+                    "value": 17
+                },
+                {
+                    "time": "10:00",
+                    "value": 18
+                },
+                {
+                    "time": "11:00",
+                    "value": 26
+                },
+                {
+                    "time": "12:00",
+                    "value": 24
+                },
+                {
+                    "time": "13:00",
+                    "value": 17
+                },
+                {
+                    "time": "14:00",
+                    "value": 23
+                },
+                {
+                    "time": "15:00",
+                    "value": 29
+                },
+                {
+                    "time": "16:00",
+                    "value": 26
+                },
+                {
+                    "time": "17:00",
+                    "value": 20
+                },
+                {
+                    "time": "18:00",
+                    "value": 15
+                },
+                {
+                    "time": "19:00",
+                    "value": 24
+                },
+                {
+                    "time": "20:00",
+                    "value": 25
+                },
+                {
+                    "time": "21:00",
+                    "value": 16
+                },
+                {
+                    "time": "22:00",
+                    "value": 17
+                },
+                {
+                    "time": "23:00",
+                    "value": 22
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200303",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 19
+                },
+                {
+                    "time": "01:00",
+                    "value": 28
+                },
+                {
+                    "time": "02:00",
+                    "value": 29
+                },
+                {
+                    "time": "03:00",
+                    "value": 27
+                },
+                {
+                    "time": "04:00",
+                    "value": 17
+                },
+                {
+                    "time": "05:00",
+                    "value": 15
+                },
+                {
+                    "time": "06:00",
+                    "value": 24
+                },
+                {
+                    "time": "07:00",
+                    "value": 18
+                },
+                {
+                    "time": "08:00",
+                    "value": 21
+                },
+                {
+                    "time": "09:00",
+                    "value": 28
+                },
+                {
+                    "time": "10:00",
+                    "value": 20
+                },
+                {
+                    "time": "11:00",
+                    "value": 30
+                },
+                {
+                    "time": "12:00",
+                    "value": 30
+                },
+                {
+                    "time": "13:00",
+                    "value": 29
+                },
+                {
+                    "time": "14:00",
+                    "value": 25
+                },
+                {
+                    "time": "15:00",
+                    "value": 30
+                },
+                {
+                    "time": "16:00",
+                    "value": 29
+                },
+                {
+                    "time": "17:00",
+                    "value": 28
+                },
+                {
+                    "time": "18:00",
+                    "value": 23
+                },
+                {
+                    "time": "19:00",
+                    "value": 19
+                },
+                {
+                    "time": "20:00",
+                    "value": 16
+                },
+                {
+                    "time": "21:00",
+                    "value": 15
+                },
+                {
+                    "time": "22:00",
+                    "value": 30
+                },
+                {
+                    "time": "23:00",
+                    "value": 28
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200304",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 28
+                },
+                {
+                    "time": "01:00",
+                    "value": 25
+                },
+                {
+                    "time": "02:00",
+                    "value": 24
+                },
+                {
+                    "time": "03:00",
+                    "value": 22
+                },
+                {
+                    "time": "04:00",
+                    "value": 23
+                },
+                {
+                    "time": "05:00",
+                    "value": 26
+                },
+                {
+                    "time": "06:00",
+                    "value": 23
+                },
+                {
+                    "time": "07:00",
+                    "value": 25
+                },
+                {
+                    "time": "08:00",
+                    "value": 26
+                },
+                {
+                    "time": "09:00",
+                    "value": 15
+                },
+                {
+                    "time": "10:00",
+                    "value": 25
+                },
+                {
+                    "time": "11:00",
+                    "value": 22
+                },
+                {
+                    "time": "12:00",
+                    "value": 20
+                },
+                {
+                    "time": "13:00",
+                    "value": 15
+                },
+                {
+                    "time": "14:00",
+                    "value": 27
+                },
+                {
+                    "time": "15:00",
+                    "value": 27
+                },
+                {
+                    "time": "16:00",
+                    "value": 27
+                },
+                {
+                    "time": "17:00",
+                    "value": 26
+                },
+                {
+                    "time": "18:00",
+                    "value": 18
+                },
+                {
+                    "time": "19:00",
+                    "value": 24
+                },
+                {
+                    "time": "20:00",
+                    "value": 27
+                },
+                {
+                    "time": "21:00",
+                    "value": 21
+                },
+                {
+                    "time": "22:00",
+                    "value": 21
+                },
+                {
+                    "time": "23:00",
+                    "value": 17
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200305",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 29
+                },
+                {
+                    "time": "01:00",
+                    "value": 26
+                },
+                {
+                    "time": "02:00",
+                    "value": 23
+                },
+                {
+                    "time": "03:00",
+                    "value": 23
+                },
+                {
+                    "time": "04:00",
+                    "value": 26
+                },
+                {
+                    "time": "05:00",
+                    "value": 26
+                },
+                {
+                    "time": "06:00",
+                    "value": 23
+                },
+                {
+                    "time": "07:00",
+                    "value": 17
+                },
+                {
+                    "time": "08:00",
+                    "value": 20
+                },
+                {
+                    "time": "09:00",
+                    "value": 28
+                },
+                {
+                    "time": "10:00",
+                    "value": 18
+                },
+                {
+                    "time": "11:00",
+                    "value": 21
+                },
+                {
+                    "time": "12:00",
+                    "value": 16
+                },
+                {
+                    "time": "13:00",
+                    "value": 26
+                },
+                {
+                    "time": "14:00",
+                    "value": 16
+                },
+                {
+                    "time": "15:00",
+                    "value": 29
+                },
+                {
+                    "time": "16:00",
+                    "value": 19
+                },
+                {
+                    "time": "17:00",
+                    "value": 22
+                },
+                {
+                    "time": "18:00",
+                    "value": 19
+                },
+                {
+                    "time": "19:00",
+                    "value": 16
+                },
+                {
+                    "time": "20:00",
+                    "value": 25
+                },
+                {
+                    "time": "21:00",
+                    "value": 16
+                },
+                {
+                    "time": "22:00",
+                    "value": 29
+                },
+                {
+                    "time": "23:00",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200306",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 28
+                },
+                {
+                    "time": "01:00",
+                    "value": 26
+                },
+                {
+                    "time": "02:00",
+                    "value": 15
+                },
+                {
+                    "time": "03:00",
+                    "value": 22
+                },
+                {
+                    "time": "04:00",
+                    "value": 24
+                },
+                {
+                    "time": "05:00",
+                    "value": 28
+                },
+                {
+                    "time": "06:00",
+                    "value": 19
+                },
+                {
+                    "time": "07:00",
+                    "value": 23
+                },
+                {
+                    "time": "08:00",
+                    "value": 30
+                },
+                {
+                    "time": "09:00",
+                    "value": 17
+                },
+                {
+                    "time": "10:00",
+                    "value": 24
+                },
+                {
+                    "time": "11:00",
+                    "value": 26
+                },
+                {
+                    "time": "12:00",
+                    "value": 29
+                },
+                {
+                    "time": "13:00",
+                    "value": 26
+                },
+                {
+                    "time": "14:00",
+                    "value": 19
+                },
+                {
+                    "time": "15:00",
+                    "value": 21
+                },
+                {
+                    "time": "16:00",
+                    "value": 27
+                },
+                {
+                    "time": "17:00",
+                    "value": 25
+                },
+                {
+                    "time": "18:00",
+                    "value": 16
+                },
+                {
+                    "time": "19:00",
+                    "value": 22
+                },
+                {
+                    "time": "20:00",
+                    "value": 24
+                },
+                {
+                    "time": "21:00",
+                    "value": 24
+                },
+                {
+                    "time": "22:00",
+                    "value": 22
+                },
+                {
+                    "time": "23:00",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200307",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 23
+                },
+                {
+                    "time": "01:00",
+                    "value": 25
+                },
+                {
+                    "time": "02:00",
+                    "value": 26
+                },
+                {
+                    "time": "03:00",
+                    "value": 22
+                },
+                {
+                    "time": "04:00",
+                    "value": 27
+                },
+                {
+                    "time": "05:00",
+                    "value": 27
+                },
+                {
+                    "time": "06:00",
+                    "value": 20
+                },
+                {
+                    "time": "07:00",
+                    "value": 19
+                },
+                {
+                    "time": "08:00",
+                    "value": 21
+                },
+                {
+                    "time": "09:00",
+                    "value": 24
+                },
+                {
+                    "time": "10:00",
+                    "value": 17
+                },
+                {
+                    "time": "11:00",
+                    "value": 29
+                },
+                {
+                    "time": "12:00",
+                    "value": 19
+                },
+                {
+                    "time": "13:00",
+                    "value": 25
+                },
+                {
+                    "time": "14:00",
+                    "value": 18
+                },
+                {
+                    "time": "15:00",
+                    "value": 25
+                },
+                {
+                    "time": "16:00",
+                    "value": 23
+                },
+                {
+                    "time": "17:00",
+                    "value": 23
+                },
+                {
+                    "time": "18:00",
+                    "value": 21
+                },
+                {
+                    "time": "19:00",
+                    "value": 18
+                },
+                {
+                    "time": "20:00",
+                    "value": 21
+                },
+                {
+                    "time": "21:00",
+                    "value": 16
+                },
+                {
+                    "time": "22:00",
+                    "value": 19
+                },
+                {
+                    "time": "23:00",
+                    "value": 16
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200308",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 22
+                },
+                {
+                    "time": "01:00",
+                    "value": 30
+                },
+                {
+                    "time": "02:00",
+                    "value": 20
+                },
+                {
+                    "time": "03:00",
+                    "value": 16
+                },
+                {
+                    "time": "04:00",
+                    "value": 15
+                },
+                {
+                    "time": "05:00",
+                    "value": 29
+                },
+                {
+                    "time": "06:00",
+                    "value": 18
+                },
+                {
+                    "time": "07:00",
+                    "value": 27
+                },
+                {
+                    "time": "08:00",
+                    "value": 18
+                },
+                {
+                    "time": "09:00",
+                    "value": 20
+                },
+                {
+                    "time": "10:00",
+                    "value": 27
+                },
+                {
+                    "time": "11:00",
+                    "value": 21
+                },
+                {
+                    "time": "12:00",
+                    "value": 19
+                },
+                {
+                    "time": "13:00",
+                    "value": 23
+                },
+                {
+                    "time": "14:00",
+                    "value": 18
+                },
+                {
+                    "time": "15:00",
+                    "value": 20
+                },
+                {
+                    "time": "16:00",
+                    "value": 28
+                },
+                {
+                    "time": "17:00",
+                    "value": 25
+                },
+                {
+                    "time": "18:00",
+                    "value": 21
+                },
+                {
+                    "time": "19:00",
+                    "value": 17
+                },
+                {
+                    "time": "20:00",
+                    "value": 15
+                },
+                {
+                    "time": "21:00",
+                    "value": 20
+                },
+                {
+                    "time": "22:00",
+                    "value": 23
+                },
+                {
+                    "time": "23:00",
+                    "value": 24
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200309",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 16
+                },
+                {
+                    "time": "01:00",
+                    "value": 17
+                },
+                {
+                    "time": "02:00",
+                    "value": 22
+                },
+                {
+                    "time": "03:00",
+                    "value": 17
+                },
+                {
+                    "time": "04:00",
+                    "value": 18
+                },
+                {
+                    "time": "05:00",
+                    "value": 23
+                },
+                {
+                    "time": "06:00",
+                    "value": 16
+                },
+                {
+                    "time": "07:00",
+                    "value": 20
+                },
+                {
+                    "time": "08:00",
+                    "value": 24
+                },
+                {
+                    "time": "09:00",
+                    "value": 22
+                },
+                {
+                    "time": "10:00",
+                    "value": 28
+                },
+                {
+                    "time": "11:00",
+                    "value": 26
+                },
+                {
+                    "time": "12:00",
+                    "value": 25
+                },
+                {
+                    "time": "13:00",
+                    "value": 17
+                },
+                {
+                    "time": "14:00",
+                    "value": 28
+                },
+                {
+                    "time": "15:00",
+                    "value": 18
+                },
+                {
+                    "time": "16:00",
+                    "value": 22
+                },
+                {
+                    "time": "17:00",
+                    "value": 29
+                },
+                {
+                    "time": "18:00",
+                    "value": 25
+                },
+                {
+                    "time": "19:00",
+                    "value": 29
+                },
+                {
+                    "time": "20:00",
+                    "value": 27
+                },
+                {
+                    "time": "21:00",
+                    "value": 17
+                },
+                {
+                    "time": "22:00",
+                    "value": 18
+                },
+                {
+                    "time": "23:00",
+                    "value": 19
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200310",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 28
+                },
+                {
+                    "time": "01:00",
+                    "value": 16
+                },
+                {
+                    "time": "02:00",
+                    "value": 19
+                },
+                {
+                    "time": "03:00",
+                    "value": 27
+                },
+                {
+                    "time": "04:00",
+                    "value": 24
+                },
+                {
+                    "time": "05:00",
+                    "value": 19
+                },
+                {
+                    "time": "06:00",
+                    "value": 19
+                },
+                {
+                    "time": "07:00",
+                    "value": 28
+                },
+                {
+                    "time": "08:00",
+                    "value": 17
+                },
+                {
+                    "time": "09:00",
+                    "value": 19
+                },
+                {
+                    "time": "10:00",
+                    "value": 25
+                },
+                {
+                    "time": "11:00",
+                    "value": 21
+                },
+                {
+                    "time": "12:00",
+                    "value": 19
+                },
+                {
+                    "time": "13:00",
+                    "value": 18
+                },
+                {
+                    "time": "14:00",
+                    "value": 18
+                },
+                {
+                    "time": "15:00",
+                    "value": 16
+                },
+                {
+                    "time": "16:00",
+                    "value": 19
+                },
+                {
+                    "time": "17:00",
+                    "value": 15
+                },
+                {
+                    "time": "18:00",
+                    "value": 18
+                },
+                {
+                    "time": "19:00",
+                    "value": 19
+                },
+                {
+                    "time": "20:00",
+                    "value": 22
+                },
+                {
+                    "time": "21:00",
+                    "value": 21
+                },
+                {
+                    "time": "22:00",
+                    "value": 28
+                },
+                {
+                    "time": "23:00",
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200311",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 18
+                },
+                {
+                    "time": "01:00",
+                    "value": 20
+                },
+                {
+                    "time": "02:00",
+                    "value": 30
+                },
+                {
+                    "time": "03:00",
+                    "value": 23
+                },
+                {
+                    "time": "04:00",
+                    "value": 30
+                },
+                {
+                    "time": "05:00",
+                    "value": 25
+                },
+                {
+                    "time": "06:00",
+                    "value": 15
+                },
+                {
+                    "time": "07:00",
+                    "value": 27
+                },
+                {
+                    "time": "08:00",
+                    "value": 24
+                },
+                {
+                    "time": "09:00",
+                    "value": 19
+                },
+                {
+                    "time": "10:00",
+                    "value": 29
+                },
+                {
+                    "time": "11:00",
+                    "value": 25
+                },
+                {
+                    "time": "12:00",
+                    "value": 19
+                },
+                {
+                    "time": "13:00",
+                    "value": 15
+                },
+                {
+                    "time": "14:00",
+                    "value": 22
+                },
+                {
+                    "time": "15:00",
+                    "value": 15
+                },
+                {
+                    "time": "16:00",
+                    "value": 25
+                },
+                {
+                    "time": "17:00",
+                    "value": 27
+                },
+                {
+                    "time": "18:00",
+                    "value": 17
+                },
+                {
+                    "time": "19:00",
+                    "value": 29
+                },
+                {
+                    "time": "20:00",
+                    "value": 30
+                },
+                {
+                    "time": "21:00",
+                    "value": 22
+                },
+                {
+                    "time": "22:00",
+                    "value": 21
+                },
+                {
+                    "time": "23:00",
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200312",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 19
+                },
+                {
+                    "time": "01:00",
+                    "value": 30
+                },
+                {
+                    "time": "02:00",
+                    "value": 28
+                },
+                {
+                    "time": "03:00",
+                    "value": 29
+                },
+                {
+                    "time": "04:00",
+                    "value": 23
+                },
+                {
+                    "time": "05:00",
+                    "value": 19
+                },
+                {
+                    "time": "06:00",
+                    "value": 23
+                },
+                {
+                    "time": "07:00",
+                    "value": 21
+                },
+                {
+                    "time": "08:00",
+                    "value": 17
+                },
+                {
+                    "time": "09:00",
+                    "value": 18
+                },
+                {
+                    "time": "10:00",
+                    "value": 29
+                },
+                {
+                    "time": "11:00",
+                    "value": 20
+                },
+                {
+                    "time": "12:00",
+                    "value": 19
+                },
+                {
+                    "time": "13:00",
+                    "value": 29
+                },
+                {
+                    "time": "14:00",
+                    "value": 27
+                },
+                {
+                    "time": "15:00",
+                    "value": 21
+                },
+                {
+                    "time": "16:00",
+                    "value": 25
+                },
+                {
+                    "time": "17:00",
+                    "value": 25
+                },
+                {
+                    "time": "18:00",
+                    "value": 18
+                },
+                {
+                    "time": "19:00",
+                    "value": 21
+                },
+                {
+                    "time": "20:00",
+                    "value": 27
+                },
+                {
+                    "time": "21:00",
+                    "value": 24
+                },
+                {
+                    "time": "22:00",
+                    "value": 29
+                },
+                {
+                    "time": "23:00",
+                    "value": 19
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200313",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 20
+                },
+                {
+                    "time": "01:00",
+                    "value": 16
+                },
+                {
+                    "time": "02:00",
+                    "value": 18
+                },
+                {
+                    "time": "03:00",
+                    "value": 28
+                },
+                {
+                    "time": "04:00",
+                    "value": 24
+                },
+                {
+                    "time": "05:00",
+                    "value": 21
+                },
+                {
+                    "time": "06:00",
+                    "value": 23
+                },
+                {
+                    "time": "07:00",
+                    "value": 25
+                },
+                {
+                    "time": "08:00",
+                    "value": 30
+                },
+                {
+                    "time": "09:00",
+                    "value": 22
+                },
+                {
+                    "time": "10:00",
+                    "value": 23
+                },
+                {
+                    "time": "11:00",
+                    "value": 26
+                },
+                {
+                    "time": "12:00",
+                    "value": 29
+                },
+                {
+                    "time": "13:00",
+                    "value": 27
+                },
+                {
+                    "time": "14:00",
+                    "value": 15
+                },
+                {
+                    "time": "15:00",
+                    "value": 21
+                },
+                {
+                    "time": "16:00",
+                    "value": 18
+                },
+                {
+                    "time": "17:00",
+                    "value": 16
+                },
+                {
+                    "time": "18:00",
+                    "value": 26
+                },
+                {
+                    "time": "19:00",
+                    "value": 20
+                },
+                {
+                    "time": "20:00",
+                    "value": 29
+                },
+                {
+                    "time": "21:00",
+                    "value": 21
+                },
+                {
+                    "time": "22:00",
+                    "value": 24
+                },
+                {
+                    "time": "23:00",
+                    "value": 21
+                }
+            ]
+        },
+        {
+            "-scale": "Celsius",
+            "city": "Amsterdam",
+            "date": "20200314",
+            "prediction": [
+                {
+                    "time": "00:00",
+                    "value": 21
+                },
+                {
+                    "time": "01:00",
+                    "value": 16
+                },
+                {
+                    "time": "02:00",
+                    "value": 20
+                },
+                {
+                    "time": "03:00",
+                    "value": 30
+                },
+                {
+                    "time": "04:00",
+                    "value": 23
+                },
+                {
+                    "time": "05:00",
+                    "value": 30
+                },
+                {
+                    "time": "06:00",
+                    "value": 26
+                },
+                {
+                    "time": "07:00",
+                    "value": 24
+                },
+                {
+                    "time": "08:00",
+                    "value": 17
+                },
+                {
+                    "time": "09:00",
+                    "value": 26
+                },
+                {
+                    "time": "10:00",
+                    "value": 29
+                },
+                {
+                    "time": "11:00",
+                    "value": 17
+                },
+                {
+                    "time": "12:00",
+                    "value": 23
+                },
+                {
+                    "time": "13:00",
+                    "value": 21
+                },
+                {
+                    "time": "14:00",
+                    "value": 27
+                },
+                {
+                    "time": "15:00",
+                    "value": 21
+                },
+                {
+                    "time": "16:00",
+                    "value": 19
+                },
+                {
+                    "time": "17:00",
+                    "value": 18
+                },
+                {
+                    "time": "18:00",
+                    "value": 25
+                },
+                {
+                    "time": "19:00",
+                    "value": 24
+                },
+                {
+                    "time": "20:00",
+                    "value": 21
+                },
+                {
+                    "time": "21:00",
+                    "value": 26
+                },
+                {
+                    "time": "22:00",
+                    "value": 29
+                },
+                {
+                    "time": "23:00",
+                    "value": 27
+                }
+            ]
+        }
+    ]
+}
