@@ -1,6 +1,6 @@
 # Weather application
 This application collecting data from few sources and get an average
-value in client scale
+value in client scale. Requests using cache, which collecting in Redis with TTL = 60 seconds
 
 # How to start service
 you just need to run docker-compose
