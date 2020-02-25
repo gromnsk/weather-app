@@ -1,8 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Domain\Weather;
+namespace App\Infrastructure\External\Weather;
 
+use App\Domain\DomainException\DomainInvalidRequestException;
+use App\Domain\Weather\Scale;
+use App\Domain\Weather\Weather;
+use App\Domain\Weather\WeatherRepository;
 use Predis\ClientInterface;
 
 class WeatherRepositoryCacheDecorator implements WeatherRepository
@@ -35,6 +39,7 @@ class WeatherRepositoryCacheDecorator implements WeatherRepository
      * @param string $time
      * @param string $scale
      * @return Weather
+     * @throws DomainInvalidRequestException
      */
     public function getByDate(string $city, string $date, string $time, string $scale = ''): Weather
     {
@@ -42,23 +47,27 @@ class WeatherRepositoryCacheDecorator implements WeatherRepository
             'city' => $city,
             'date' => $date,
             'time' => $time,
-            'scale' => $scale,
         ]));
         if (!empty($cachedValue)) {
-            return new Weather($scale, $city, $date, $time, (int)$cachedValue);
+            $weather = new Weather(Scale::CELSIUS_SCALE, $city, $date, $time, (int)$cachedValue);
+        } else {
+            $weather = $this->repository->getByDate($city, $date, $time, $scale);
+            $key = $this->getKey($weather->jsonSerialize());
+            $this->cachierClient->set($key, $weather->getValue());
+            $this->cachierClient->expire($key, $this->ttl);
         }
-        $weather = $this->repository->getByDate($city, $date, $time, $scale);
-        $key = $this->getKey($weather->jsonSerialize());
-        $this->cachierClient->set($key, $weather->getValue());
-        $this->cachierClient->expire($key, $this->ttl);
 
-        return $weather;
+        $value = Scale::convert($weather->getScale(), $scale, $weather->getValue());
+        $convertedWeather = new Weather($scale, $city, $date, $time, $value);
+
+        return $convertedWeather;
     }
 
     /**
      * @param string $city
      * @param string $scale
      * @return Weather
+     * @throws DomainInvalidRequestException
      */
     public function getToday(string $city, string $scale = ''): Weather
     {
@@ -71,6 +80,6 @@ class WeatherRepositoryCacheDecorator implements WeatherRepository
      */
     protected function getKey(array $weather)
     {
-        return sprintf("%s:%s:%s:%s", $weather['city'], $weather['scale'], $weather['date'], $weather['time']);
+        return sprintf("%s:%s:%s", $weather['city'], $weather['date'], $weather['time']);
     }
 }

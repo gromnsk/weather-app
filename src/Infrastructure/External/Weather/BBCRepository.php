@@ -3,7 +3,9 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\External\Weather;
 
+use App\Domain\DomainException\DomainInvalidRequestException;
 use App\Domain\DomainException\DomainRecordNotFoundException;
+use App\Domain\Weather\Scale;
 use App\Domain\Weather\Weather;
 use App\Domain\Weather\WeatherRepository;
 use SimpleXMLElement;
@@ -39,14 +41,20 @@ class BBCRepository implements WeatherRepository
      * @param string $scale
      * @return Weather
      * @throws DomainRecordNotFoundException
+     * @throws DomainInvalidRequestException
      */
-    public function getByDate(string $city, string $date, string $time, string $scale =''): Weather
+    public function getByDate(string $city, string $date, string $time, string $scale = ''): Weather
     {
         foreach ($this->getData()->prediction as $data) {
             if (strtolower($data->city->__toString()) === strtolower($city) && $data->date->__toString() === $date) {
                 foreach ($data->prediction as $prediction) {
                     if ($prediction->time->__toString() === $time) {
-                        return new Weather((string)$data->attributes()->scale, $city, $date, $time, (int)$prediction->value->__toString());
+                        $value = Scale::convert(
+                            strtolower((string)$data->attributes()->scale),
+                            Scale::CELSIUS_SCALE,
+                            (int)$prediction->value->__toString()
+                        );
+                        return new Weather(Scale::CELSIUS_SCALE, $city, $date, $time, $value);
                     }
                 }
             }

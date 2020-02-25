@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-use App\Domain\Weather\WeatherRepositories;
+use App\Infrastructure\External\Weather\WeatherRepositories;
 use App\Domain\Weather\WeatherRepository;
-use App\Domain\Weather\WeatherRepositoryCacheDecorator;
+use App\Infrastructure\External\Weather\WeatherRepositoryCacheDecorator;
 use App\Infrastructure\External\Weather\BBCRepository;
 use App\Infrastructure\External\Weather\IAmsterdamRepository;
 use App\Infrastructure\External\Weather\WeatherComRepository;

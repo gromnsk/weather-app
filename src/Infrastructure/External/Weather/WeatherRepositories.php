@@ -1,9 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Domain\Weather;
+namespace App\Infrastructure\External\Weather;
 
 use App\Domain\DomainException\DomainRecordNotFoundException;
+use App\Domain\Weather\Scale;
+use App\Domain\Weather\Weather;
+use App\Domain\Weather\WeatherRepository;
 
 class WeatherRepositories implements WeatherRepository
 {
@@ -50,14 +53,20 @@ class WeatherRepositories implements WeatherRepository
         $weather = null;
         foreach ($this->getRepositories() as $repository) {
             $weather = $repository->getByDate($city, $date, $time, $scale);
-            $value += Scale::convert(strtolower($weather->getScale()), strtolower($scale), $weather->getValue());
+            $value += $weather->getValue();
         }
 
         if (!$weather) {
             throw new DomainRecordNotFoundException();
         }
 
-        $resultWeather = new Weather($scale, $city, $weather->getDate(), $weather->getTime(), $value/count($this->getRepositories()));
+        $resultWeather = new Weather(
+            Scale::CELSIUS_SCALE,
+            $city,
+            $weather->getDate(),
+            $weather->getTime(),
+            $value / count($this->getRepositories())
+        );
 
         return $resultWeather;
     }

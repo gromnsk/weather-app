@@ -3,7 +3,9 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\External\Weather;
 
+use App\Domain\DomainException\DomainInvalidRequestException;
 use App\Domain\DomainException\DomainRecordNotFoundException;
+use App\Domain\Weather\Scale;
 use App\Domain\Weather\Weather;
 use App\Domain\Weather\WeatherRepository;
 
@@ -38,6 +40,7 @@ class IAmsterdamRepository implements WeatherRepository
      * @param string $scale
      * @return Weather
      * @throws DomainRecordNotFoundException
+     * @throws DomainInvalidRequestException
      */
     public function getByDate(string $city, string $date, string $time, string $scale = ''): Weather
     {
@@ -45,7 +48,12 @@ class IAmsterdamRepository implements WeatherRepository
             if (strtolower($data['city']) === strtolower($city) && $data['date'] === $date) {
                 foreach ($data['prediction'] as $prediction) {
                     if ($prediction['time'] === $time) {
-                        return new Weather($data['-scale'], $city, $date, $time, $prediction['value']);
+                        $value = Scale::convert(
+                            strtolower($data['-scale']),
+                            Scale::CELSIUS_SCALE,
+                            $prediction['value']
+                        );
+                        return new Weather(Scale::CELSIUS_SCALE, $city, $date, $time, $value);
                     }
                 }
             }
