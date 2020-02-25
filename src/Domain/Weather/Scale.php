@@ -11,6 +11,16 @@ class Scale
     const FAHRENHEIT_SCALE = 'fahrenheit';
     const CELSIUS_SCALE = 'celsius';
 
+    const ALL_SCALES = [
+        self::FAHRENHEIT_SCALE,
+        self::CELSIUS_SCALE,
+    ];
+
+    public static function validate(string $scale): bool
+    {
+        return in_array($scale, self::ALL_SCALES);
+    }
+
     /**
      * @param string $inputScale
      * @param string $outputScale

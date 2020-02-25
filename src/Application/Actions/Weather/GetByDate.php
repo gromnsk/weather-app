@@ -22,6 +22,9 @@ class GetByDate extends WeatherAction
         }
         $time = date('H:00', strtotime($this->resolveArg('time')));
         $scale = $this->args['scale'] ?? Scale::CELSIUS_SCALE;
+        if (!Scale::validate($scale)) {
+            throw new DomainInvalidRequestException(sprintf("invalid %s scale", $scale));
+        }
         $weather = $this->weatherRepository->getByDate($city, $date, $time, $scale);
 
         return $this->respondWithData($weather);
