@@ -16,11 +16,11 @@ class GetTodayAction extends WeatherAction
     {
         $city = $this->args['city'] ?? '';
         if (empty($city)) {
-            throw new HttpBadRequestException('Empty city');
+            throw new HttpBadRequestException($this->request, 'Empty city');
         }
         $scale = $this->args['scale'] ?? Scale::CELSIUS_SCALE;
         if (!Scale::validate($scale)) {
-            throw new HttpBadRequestException(sprintf("invalid %s scale", $scale));
+            throw new HttpBadRequestException($this->request, sprintf("invalid %s scale", $scale));
         }
         $weather = $this->weatherRepository->getToday($city, $scale);
 
