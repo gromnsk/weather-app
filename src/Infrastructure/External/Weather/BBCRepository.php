@@ -55,7 +55,7 @@ class BBCRepository implements WeatherRepository
         throw new DomainRecordNotFoundException(sprintf('weather for %s not found', $city));
     }
 
-    public function getData(): SimpleXMLElement
+    protected function getData(): SimpleXMLElement
     {
         $data = file_get_contents($this->filePath);
 

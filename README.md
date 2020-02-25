@@ -25,3 +25,7 @@ one more integration
 # how-to add new scale
 
 open `src/Domain/Weather/Scale.php`, add new constants and implement convertion from all scales to new one and vice-versa
+
+# Class diagram
+
+![class diagram](uml.png)
