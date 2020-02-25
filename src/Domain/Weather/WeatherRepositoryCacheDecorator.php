@@ -26,6 +26,7 @@ class WeatherRepositoryCacheDecorator implements WeatherRepository
     {
         $this->repository = $repository;
         $this->cachierClient = $cachierClient;
+        $this->ttl = $ttl;
     }
 
     /**
@@ -47,7 +48,9 @@ class WeatherRepositoryCacheDecorator implements WeatherRepository
             return new Weather($scale, $city, $date, $time, (int)$cachedValue);
         }
         $weather = $this->repository->getByDate($city, $date, $time, $scale);
-        $this->cachierClient->set($this->getKey($weather->jsonSerialize()), $weather->getValue());
+        $key = $this->getKey($weather->jsonSerialize());
+        $this->cachierClient->set($key, $weather->getValue());
+        $this->cachierClient->expire($key, $this->ttl);
 
         return $weather;
     }

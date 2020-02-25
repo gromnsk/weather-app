@@ -30,6 +30,7 @@ return function (ContainerBuilder $containerBuilder) {
                     'scheme' => 'tcp',
                     'host' => 'redis',
                     'port' => 6379,
+                    'ttl' => 60,
                 ],
             ],
         ],

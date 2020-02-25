@@ -21,7 +21,7 @@ return function (ContainerBuilder $containerBuilder) {
 
             $cachierClient = new Predis\Client($settings['cache']['redis']);
 
-            return new WeatherRepositoryCacheDecorator($repositories, $cachierClient);
+            return new WeatherRepositoryCacheDecorator($repositories, $cachierClient, $settings['cache']['redis']['ttl']);
         },
     ]);
 };
