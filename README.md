@@ -2,7 +2,7 @@
 This application collecting data from few sources and get an average
 value in client scale. Requests using cache, which collecting in Redis with TTL = 60 seconds
 
-You can find demo application [here](gromnsk.ru:81)
+You can find demo application [here](http://gromnsk.ru:81)
 
 few examples:
 
