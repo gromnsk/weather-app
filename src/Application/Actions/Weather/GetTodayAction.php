@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace App\Application\Actions\Weather;
 
-use App\Domain\DomainException\DomainInvalidRequestException;
 use App\Domain\Weather\Scale;
 use Psr\Http\Message\ResponseInterface as Response;
 use Slim\Exception\HttpBadRequestException;
@@ -21,7 +20,7 @@ class GetTodayAction extends WeatherAction
         }
         $scale = $this->args['scale'] ?? Scale::CELSIUS_SCALE;
         if (!Scale::validate($scale)) {
-            throw new DomainInvalidRequestException(sprintf("invalid %s scale", $scale));
+            throw new HttpBadRequestException(sprintf("invalid %s scale", $scale));
         }
         $weather = $this->weatherRepository->getToday($city, $scale);
 
