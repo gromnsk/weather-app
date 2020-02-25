@@ -2,6 +2,14 @@
 This application collecting data from few sources and get an average
 value in client scale. Requests using cache, which collecting in Redis with TTL = 60 seconds
 
+You can find demo application [here](gromnsk.ru:81)
+
+few examples:
+
+    /weather/amsterdam/2020-02-26/22:00
+    /weather/amsterdam
+    /weather/amsterdam/2020-03-26/22:00 // wrong request, more than 10 days
+
 # How to start service
 you just need to run docker-compose
 
